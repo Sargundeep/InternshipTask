@@ -6,7 +6,8 @@ https://www.evernote.com/shard/s358/sh/65141d57-3c8d-4ba8-9ad7-f2e09453c041/ffcb
 Steps:
 1. Clone this repo
 2. Add your code locally 
-3. Once you are done create a pull request
-4. I will review your code
-5. If code looks right, I will merge it.
+  2.1 Make sure you add only the spider code, change other middleware files only if required.
+4. Once you are done create a pull request
+5. I will review your code
+6. If code looks right, I will merge it.
 
