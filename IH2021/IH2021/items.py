@@ -9,4 +9,7 @@ import scrapy
 class Ih2021Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    price = scrapy.Field()
+    title = scrapy.Field()
+    stock = scrapy.Field()
+    maftr = scrapy.Field()
