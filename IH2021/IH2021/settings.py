@@ -12,7 +12,12 @@ BOT_NAME = 'IH2021'
 SPIDER_MODULES = ['IH2021.spiders']
 NEWSPIDER_MODULE = 'IH2021.spiders'
 
+PROXY_POOL_ENABLED = True
 
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware': 610,
+    'scrapy_proxy_pool.middlewares.BanDetectionMiddleware': 620,
+}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'IH2021 (+http://www.yourdomain.com)'
 
